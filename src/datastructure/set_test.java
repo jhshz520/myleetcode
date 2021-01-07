@@ -1,5 +1,6 @@
 package datastructure;
 
+import java.util.LinkedHashSet;
 import java.util.Set;
 import java.util.TreeSet;
 
@@ -14,6 +15,14 @@ public class set_test {
         myset.add(5);
 
         System.out.println(myset);
+
+        Set<Integer> listset = new LinkedHashSet<>();
+        listset.add(3);
+        listset.add(4);
+        listset.add(6);
+        listset.add(90);
+        listset.add(18);
+        System.out.println(listset);
     }
 
 }
