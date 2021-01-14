@@ -20,9 +20,12 @@ public class Solution {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
+        TreeNode root = TreeNode.createTestData("[1,2,2,null,3,null,3]");
+        TreeNode.print(root);
         System.out.println(solution.isSameTree(
                 TreeNode.createTestData("[1,2,2,null,3,null,3]"),
                 TreeNode.createTestData("[1,2,2,null,3,null,3]"))
+
         );
         System.out.println(solution.isSameTree(
                 TreeNode.createTestData("[1,2,2,null,3,null,3]"),
